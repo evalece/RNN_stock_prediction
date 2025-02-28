@@ -1,0 +1,6 @@
+This project utilizes Kaggle's dataset https://www.kaggle.com/datasets/henryshan/google-stock-price for 
+recurrent neural network training purpose.
+
+In Training RNN, we compare various measures (i.e., exisiting formulas in stock trading but validate by 
+recurrent neural network through training) to find the best
+combination of method in predicting the stock market.
