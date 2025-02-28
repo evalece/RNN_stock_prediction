@@ -4,3 +4,23 @@ recurrent neural network training purpose.
 In Training RNN, we compare various measures (i.e., exisiting formulas in stock trading but validate by 
 recurrent neural network through training) to find the best
 combination of method in predicting the stock market.
+
+
+Methodology and Project Breakdowns
+
+1.Data Preprocessing
+-load and detect null and duplicated data from dataset
+-Normalize data (-1<=x<=>1) for to better fit various activation function; thus, better model performance. 
+
+2.RNN training.
+RNN Training:
+-Implemnting Long-short-Term-Memory (LSTM) RNN (baseline model) to predict stockprice. The baseline model thrives on 
+finding the most useful information to provide the best predition
+-Other RNN models: model with or without baseline RNN with additional calculations (or additional RNNs) such as methods used known in stock trading. 
+-Another RNN impleted gated RNN on each feature, thus, training on both the gated weight based on prediction and baseline model. 
+
+
+3.Evaluation & Comparison
+-we aim to compare accuracy of model prediction from each RNN model as they are given various combinations of techniques (based on exisiting ones) and 
+suggest the best combination of technique to help predict stock market.
+
